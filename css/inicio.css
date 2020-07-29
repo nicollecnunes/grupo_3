@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	display: grid;
+	height: 100vh;
+	background: #023246;
+	grid-template-rows: 25% 70%;
+}
+
+header .menu nav{
+	justify-self: right; 
+	align-self: center;
+}
+
+header .menu{
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 20% 80%;
+}
+
+header .menu h2{
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Segoe UI';
+	color: #fff;
+	align-self: center;
+}
+
+header .menu a{
+	font-family: 'Roboto';
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	margin-left: 50px;
+}
+
+header .imagem{
+	display: grid;
+	margin-top: -100px;
+}
+
+header .imagem a{
+	justify-self: left;
+	width: 20px;
+	height: 20px;
+	margin-top: -260px;
+    margin-left: 50px;
+}
+
+header .imagem img{
+	margin-bottom: 20px;
+	justify-self: left;
+	width: 20px;
+	height: 20px;
+}
+
+header .main{
+	display: grid;
+}
+
+header .main h1{
+	font-family: 'Segoe UI';
+	text-align: center;
+	font-weight:900;
+	font-size: 180px;
+	color: #073447;
+	text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+
+}
+
+header .main h2{
+	font-size: 24px;
+	font-family: 'Roboto';
+	text-align: center;
+	letter-spacing: .2rem;
+	color: #fff;
+	margin-top: -20px;
+}
+
+header .main button{
+	background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	outline: inherit;
+	cursor: pointer;
+}
+
+header .main button{
+	justify-self: center;
+	width: 200px;
+	height: 40px;
+	background: none;
+	border: 2px solid #fff;
+	font-size: 14px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 50px;
+	color: #fff;
+}
+
+
+@media screen and (max-width: 1024px){
+	header .menu{
+		grid-template-columns: 40% 60%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	header .menu{
+		grid-template-columns: 30% 70%;
+	}
+}
