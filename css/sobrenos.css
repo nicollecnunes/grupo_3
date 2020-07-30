@@ -65,13 +65,26 @@ header .imagem img{
 
 @media screen and (max-width: 1024px){
     header .texto-sobre p{
-        margin-top: -550px;
+        margin-top: -560px;
         margin-left: 100px;
         margin-right: 500px;
         
     }
     header .imagem img{
-        margin-top: -600px;
+        margin-top: -550px;
+        margin-left: 550px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    header .texto-sobre p{
+        margin-top: -1000px;
+        margin-left: 100px;
+        margin-right: 500px;
+        
+    }
+    header .imagem img{
+        margin-top: 1000px;
         margin-left: 550px;
     }
 }
