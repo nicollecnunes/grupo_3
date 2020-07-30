@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: grid;
+    height: 80vh;
+    background: #fff;
+    grid-template-rows: 25% 75%;
+}
+
+header .titulo{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    padding: 50px;
+}
+
+header .titulo h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #1B192A;
+    font-family: 'Roboto Black';
+    justify-self: center;
+}
+
+header .titulo h2{
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto Regular';
+    color: #1B192A;
+    align-self: center;
+}
+
+header .aconteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header .conteudo{
+    display: grid;
+}
+
+header .conteudo img{
+    justify-self: center;
+    margin-top: 70px;
+    height: 146px;
+    width: 146px;
+    border-radius: 50%;
+}
+
+header .conteudo h3{
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Roboto Regular';
+    color: #1B192A;
+    justify-items: center;
+    margin: 40px;
+}
+
+header .conteudo h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Roboto Medium';
+    color: #00DFC2;
+    margin-left: 120px;
+    margin-right: 120px;
+    align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+    header .aconteudo{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .aconteudo{
+        grid-template-columns: 100%;
+    }
+}
