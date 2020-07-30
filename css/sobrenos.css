@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+} 
+
+header{
+	display: grid;
+	height: 100vh;
+	background: #fff;
+    grid-template-rows: 25% 70%;
+}
+
+header .sobre{
+    display: grid;
+}
+
+header .sobre h2{
+    font-size: 42px;
+	font-weight: 800;
+	font-family: 'Roboto Black';
+	color: #000;
+    align-self: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+header .entenda{
+    display:grid;
+}
+
+header .entenda h4{
+    font-family: 'Roboto';
+	font-size: 16px;
+	color: #000;
+    text-align: center;
+    font-weight:450;
+    line-height: 25px;
+    margin-top: -50px;
+}
+
+header .texto-sobre{
+    display:grid;
+}
+
+header .texto-sobre p{
+    font-family: 'Roboto';
+	font-size: 20px;
+    color: #000;
+    margin-right: 550px;
+    margin-left: 230px;
+    line-height: 40px;
+    margin-top: -400px;
+}
+
+header .imagem{
+    display: grid;
+}
+
+header .imagem img{
+    width: 400px;
+    height: 400px;
+    margin-top: -450px;
+    margin-left: 840px;
+}
+
+@media screen and (max-width: 1024px){
+    header .texto-sobre p{
+        margin-top: -550px;
+        margin-left: 100px;
+        margin-right: 500px;
+        
+    }
+    header .imagem img{
+        margin-top: -600px;
+        margin-left: 550px;
+    }
+}
