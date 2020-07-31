@@ -7,6 +7,7 @@ header{
 	margin-top: 2%;
 	height: 100vh;
 	background: #0000;
+	width: 100%;
 }
 
 .titulo{
@@ -72,7 +73,6 @@ header{
 	width: 90%;
 	height: auto;
 	margin: auto;
-	grid-column: 3;
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-template-rows: auto auto auto;
@@ -82,6 +82,7 @@ header{
 	width: 95%;
 	display: grid;
 	grid-template-columns: 15% 85%;
+	
 }
 
 .caixatextos h1{
@@ -107,6 +108,7 @@ header{
 }
 
 .caixainfo img{
+	align-self: center;
 	width:60px;
 	height:60px;
 }
@@ -122,4 +124,244 @@ header{
 	header .titulo{
 		grid-template-columns: 30% 70%;
 	}
+
+	.externa{
+		margin-top: 5%;
+	}
+
+	.caixainfo {
+	width: auto%;
+	display: grid;
+	grid-template-columns: auto auto;
+	}
+
+	.caixatextos h1{
+	font-family: 'Raleway';
+	text-align: left;
+	color: #000;
+	font-size: 110%;
+	font-weight:700;
+	}
+
+	.caixatextos h2{
+		text-align: left;
+		font-family: 'Raleway';
+		color: #000;
+		font-size: 75%;
+		font-weight:400;
+	}
+
+	.caixatextos{
+		align-self: center;
+		grid-template-rows: auto auto;
+		margin-left: 5%;
+	}
+
+	.caixainfo img{
+		align-self: center;
+		width:30px;
+		height:30px;
+	}
+
+	.titulo{
+		margin-top: 10%;
+	}
+
+	.subtitulo{
+		margin-bottom: 5%;
+	}
+
+	.preinput{
+		font-size: 150%;
+	}
+
+@media screen and (max-width: 640px){
+
+	header .titulo{
+		grid-template-columns: 30% 70%;
+	}
+
+	.externa{
+		margin-top: 5%;
+	}
+
+	.caixainfo {
+		width: auto%;
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+
+	.caixatextos h1{
+		font-family: 'Raleway';
+		text-align: left;
+		color: #000;
+		font-size: 110%;
+		font-weight:700;
+	}
+
+	.caixatextos h2{
+		text-align: left;
+		font-family: 'Raleway';
+		color: #000;
+		font-size: 75%;
+		font-weight:400;
+	}
+
+	.caixatextos{
+		align-self: center;
+		grid-template-rows: auto auto;
+		margin-left: 5%;
+	}
+
+	.caixainfo img{
+		align-self: center;
+		width:30px;
+		height:30px;
+	}
+
+	.titulo{
+		font-size: 170%;
+		margin-top: -1%;
+		font-style: bold;
+	}
+
+	.subtitulo{
+		font-size: 80%;
+		margin-bottom: -1%;
+	}
+
+	.preinput{
+		font-size: 80%;
+		width:90%;
+	}
+
+	.caixa{
+		width:100%;
+		height: 25px;
+	}
+
+	.button{
+		width: 130px;
+		height: 30px;
+		font-weight:700;
+		font-size: 12px;
+		margin-top: -8%;
+		border: 2px solid #000;
+	}
+
+	.caixainfo {
+		width: auto;
+		display: grid;
+		grid-template-columns: auto auto auto;
+	}
+
+	.caixatextos h1{
+		font-family: 'Raleway';
+		text-align: left;
+		color: #000;
+		font-size: 60%;
+		font-weight:700;
+	}
+
+	.caixatextos h2{
+		text-align: left;
+		font-family: 'Raleway';
+		color: #000;
+		font-size: 50%;
+		font-weight:400;
+	}
+
+	.caixatextos{
+		align-self: center;
+		width: 130px;
+	}
+
+	.caixainfo img{
+		align-self: center;
+		width:30px;
+		height:30px;
+	}
+
+	.externa{
+		margin-top: -1%;
+	}
+
+	.inputexterno{
+		margin-bottom: -21;
+	}
+
+
+@media screen and (max-width: 360px){
+
+	header .titulo{
+		grid-template-columns: 30% 70%;
+	}
+
+	.titulo{
+		font-size: 35px;
+		margin-top: 6%;
+		font-weight:1800;
+	}
+
+	.subtitulo{
+		font-size: 95%;
+		margin-bottom: 4%;
+	}
+
+	.preinput{
+		font-size: 85%;
+		width:100%;
+	}
+
+	.caixa{
+		width:100%;
+		height: 27px;
+		margin-bottom: 5px;
+	}
+
+	.button{
+		margin-top: -8%;
+		margin-bottom: 10%;
+	}
+
+	.caixatextos{
+		align-self: center;
+		width: 100%;
+		margin-left: 1%;
+
+	}
+
+	.caixatextos h1{
+		font-family: 'Raleway';
+		text-align: left;
+		color: #000;
+		font-size: 48%;
+		font-weight:700;
+	}
+
+	.caixatextos h2{
+		text-align: left;
+		font-family: 'Raleway';
+		color: #000;
+		font-size: 43%;
+		font-weight:400;
+	}
+
+	.caixainfo img{
+		align-self: center;
+		width:20px;
+		height:20px;
+	}
+
+	.caixainfo{
+		width: 110px;
+	}
+
+	.externa{
+		width: 100%
+		align-self: center;
+	}
+
+
+
 }
