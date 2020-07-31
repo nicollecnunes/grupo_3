@@ -4,6 +4,7 @@
 }
 
 header{
+	margin-top: 2%;
 	height: 100vh;
 	background: #0000;
 }
@@ -13,7 +14,7 @@ header{
 	align-self: center;
 	font-family: 'Roboto';
 	font-size: 60px;
-	font-weight:700;
+	font-weight:850;
 	color: #000;
 
 }
@@ -26,9 +27,14 @@ header{
 	color: #000;
 }
 
+.inputexterno{
+	width: 80%;
+	height: 75%;
+}
+
 .preinput{
-	justify-self: left; 
-	align-self: left;
+	font-weight:300;
+	text-align: left;
 	font-family: 'Roboto';
 	font-size: 28px;
 	color: #000;
@@ -38,6 +44,7 @@ header{
 	background: none;
 	color: inherit;
 	font: 'Raleway';
+	font-weight:700;
 	cursor: pointer;
 	justify-self: center;
 	width: 343px;
@@ -46,6 +53,8 @@ header{
 	border: 3px solid #000;
 	font-size: 24px;
 	color: #000;
+	margin-bottom: 5%;
+	border-radius: 7px;
 }
 
 .caixa{
@@ -54,31 +63,56 @@ header{
     -webkit-border-radius:4px;
     background: #F2F2F2; 
     border:0px;
-	width:1086px;
+	width:100%;
 	height: 66px;
 }
 
-.caixamsg{
-	border-radius:6px;
-    -moz-border-radius:4px;
-    -webkit-border-radius:4px;
-    background: #F2F2F2; 
-    border:0px;
-	width:1086px;
-	height: 277px;
+.externa{
+	justify-items: center;
+	width: 90%;
+	height: auto;
+	margin: auto;
+	grid-column: 3;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
 }
 
-.caixatelefone{
-
+.caixainfo {
+	width: 95%;
+	display: grid;
+	grid-template-columns: 15% 85%;
 }
 
-.caixaendereco{
+.caixatextos h1{
+	font-family: 'Raleway';
+	text-align: left;
+	color: #000;
+	font-size: 20px;
+	font-weight:700;
+}
 
+.caixatextos h2{
+	text-align: left;
+	font-family: 'Raleway';
+	color: #000;
+	font-size: 20px;
+	font-weight:400;
+}
+
+.caixatextos{
+	align-self: center;
+	grid-template-rows: auto auto;
+	margin-left: 5%;
+}
+
+.caixainfo img{
+	width:60px;
+	height:60px;
 }
 
 
-
-@media screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
 	header .titulo{
 		grid-template-columns: 40% 60%;
 	}
