@@ -52,26 +52,133 @@ header .texto-sobre p{
     margin-top: -400px;
 }
 
-header .imagem{
+header .foguete{
     display: grid;
 }
 
-header .imagem img{
+header .foguete img{
     width: 400px;
     height: 400px;
     margin-top: -450px;
     margin-left: 840px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1085px){
+    header .sobre h2{
+        margin-top: 10px;
+    }
+    
+    header .entenda h4{
+        margin-top: -50px;
+    }
+
     header .texto-sobre p{
-        margin-top: -550px;
+        margin-top: -350px;
         margin-left: 100px;
         margin-right: 500px;
+    }
+    header .foguete img{
+        margin-top: -400px;
+        margin-left: 600px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    header .sobre h2{
+        margin-top: 10px;
+    }
+    
+    header .entenda h4{
+        margin-top: -50px;
+    }
+
+    header .texto-sobre p{
+        margin-top: -370px;
+        margin-left: 100px;
+        margin-right: 500px;
+    }
+    header .foguete img{
+        margin-top: -430px;
+        margin-left: 600px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header .sobre h2{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    
+    header .entenda h4{
+        font-size: 14px;
+        margin-top: -90px;
+    }
+
+    header .texto-sobre p{
+        margin-top: -350px;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 16px;
+    }
+    header .foguete img{
+        width: 250px;
+        height: 250px;
+        margin-top: -650px;
+        margin-left: 33.7%;
         
     }
-    header .imagem img{
-        margin-top: -600px;
-        margin-left: 550px;
+}
+
+@media screen and (max-width: 640px){
+    header .sobre h2{
+        font-size: 28px;
+        margin-top: -15px;
+    }
+    
+    header .entenda h4{
+        font-size: 12px;
+        margin-top: -45px;
+    }
+
+    header .texto-sobre p{
+        line-height: 30px;
+        margin-top: -250px;
+        margin-left: 50px;
+        margin-right: 250px;
+        font-size: 14px;
+    }
+    header .foguete img{
+        width: 200px;
+        height: 200px;
+        margin-top: -250px;
+        margin-left: 400px;
+        
+    }
+}
+
+@media screen and (max-width: 360px){
+    header .sobre h2{
+        font-size: 28px;
+        margin-top: -40px;
+    }
+    
+    header .entenda h4{
+        font-size: 12px;
+        margin-top: -90px;
+    }
+
+    header .texto-sobre p{
+        line-height: 30px;
+        margin-top: -350px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 14px;
+    }
+    header .foguete img{
+        width: 150px;
+        height: 150px;
+        margin-top: -525px;
+        margin-left: 29.25%;
+        
     }
 }
