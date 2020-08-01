@@ -151,7 +151,7 @@
 
 @media screen and (max-width: 640px){
     .titulo{
-        margin-top: -80px;
+        margin-bottom: -90px;
     }
     .titulo h1{
         font-size: 25px; 
@@ -161,7 +161,7 @@
     }
     .servicos{
         grid-template-columns: 100%;
-        margin-top: -60px;
+        margin-top: 30px;
     }
     .servicos h1{
         font-size: 15px;
