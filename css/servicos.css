@@ -14,7 +14,6 @@
 	display: grid;
     align-self: center;
     width: 99.9%;
-    border: 5px solid pink;
 }
 
 .titulo h1{
@@ -76,25 +75,45 @@
 	height: 60px;
 }
 
-
 @media screen and (max-width: 1024px){
+    .titulo{
+        margin-top: -60px;
+    }
+    .titulo h1{
+        font-size: 50px; 
+    }
+    .titulo h2{
+        font-size: 20px;
+    }
     .servicos{
-        border: 5px solid red;
+        grid-template-columns: 50% 50%;
+        margin-top: -30px;
         margin-right: 1%;
         margin-left: 1%;
     }
+    .servicos h1{
+        font-size: 20px;
+        margin-top: 22px;
+    }
+    .servicos h2{
+        font-size: 15px;
+    }
+    .servicos .imagem img{
+        width: 55px;
+        height: 55px;
+    }
     .servicos .web{
-        margin-top: -300px;
+        margin-top: -90px;
     }
 
     .servicos .seguranca{
-        margin-top: -300px;
+        margin-top: -90px;
     }
 }
 
 @media screen and (max-width: 768px){
     .titulo{
-        margin-top: -110px;
+        margin-top: -70px;
     }
     .titulo h1{
         font-size: 40px; 
@@ -103,69 +122,105 @@
         font-size: 15px;
     }
     .servicos{
-        border: 5px solid orange;
         grid-template-columns: 50% 50%;
-        margin-top: -80px;
+        margin-top: -50px;
         margin-right: 1%;
         margin-left: 1%;
+        height: auto;
     }
     .servicos h1{
         font-size: 18px;
         margin-top: 22px;
     }
     .servicos h2{
-        font-size: 16;
+        font-size: 15px;
+        margin-top: 6px;
     }
     .servicos .imagem img{
         width: 50px;
         height: 50px;
     }
     .servicos .web{
-        margin-top: -150px;
+        margin-top: -200px;
     }
 
     .servicos .seguranca{
-        margin-top: -150px;
+        margin-top: -200px;
     }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 640px){
     .titulo{
-        margin-top: -110px;
+        margin-bottom: -90px;
     }
     .titulo h1{
-        font-size: 30px; 
+        font-size: 25px; 
     }
     .titulo h2{
-        font-size: 10px;
+        font-size: 15px;
     }
     .servicos{
-        border: 5px solid blue;
         grid-template-columns: 100%;
-        margin-top: -80px;
-        margin-right: 1%;
-        margin-left: 1%;
+        margin-top: 30px;
     }
     .servicos h1{
         font-size: 15px;
         margin-top: -10px;
     }
     .servicos h2{
-        font-size: 10px;
-        margin-top: 10px;
+        font-size: 12px;
+        margin-top: 3px;
     }
     .servicos .imagem img{
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
     .servicos .desenvolvimento{
-        margin-top: -40px;
+        margin-top: -30px;
     }
     .servicos .web{
         margin-top: -30px;
     }
 
     .servicos .seguranca{
-        margin-top: -25px;
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .titulo{
+        margin-top: -140px;
+    }
+    .titulo h1{
+        font-size: 20px; 
+    }
+    .titulo h2{
+        font-size: 10px;
+    }
+    .servicos{
+        grid-template-columns: 100%;
+        margin-top: -60px;
+    }
+    .servicos h1{
+        font-size: 13px;
+        margin-top: -20px;
+    }
+    .servicos h2{
+        font-size: 8px;
+        margin-top: 3px;
+    }
+    .servicos .imagem img{
+        width: 20px;
+        height: 20px;
+    }
+    .servicos .desenvolvimento{
+        margin-top: -30px;
+    }
+    .servicos .web{
+        margin-top: -30px;
+    }
+
+    .servicos .seguranca{
+        margin-top: -30px;
     }
 }
