@@ -14,7 +14,7 @@ header{
 	justify-self: center; 
 	align-self: center;
 	font-family: 'Roboto';
-	font-size: 60px;
+	font-size: 50px;
 	font-weight:850;
 	color: #000;
 
@@ -24,7 +24,7 @@ header{
 	justify-self: center; 
 	align-self: center;
 	font-family: 'Roboto';
-	font-size: 24px;
+	font-size: 20px;
 	color: #000;
 }
 
@@ -37,7 +37,7 @@ header{
 	font-weight:300;
 	text-align: left;
 	font-family: 'Roboto';
-	font-size: 28px;
+	font-size: 17px;
 	color: #000;
 }
 
@@ -48,11 +48,11 @@ header{
 	font-weight:700;
 	cursor: pointer;
 	justify-self: center;
-	width: 343px;
-	height: 69px;
+	width: 250px;
+	height: 54px;
 	background: none;
 	border: 3px solid #000;
-	font-size: 24px;
+	font-size: 19px;
 	color: #000;
 	margin-bottom: 5%;
 	border-radius: 7px;
@@ -65,7 +65,7 @@ header{
     background: #F2F2F2; 
     border:0px;
 	width:100%;
-	height: 66px;
+	height: 45px;
 }
 
 .externa{
@@ -89,16 +89,18 @@ header{
 	font-family: 'Raleway';
 	text-align: left;
 	color: #000;
-	font-size: 20px;
+	font-size: 17px;
 	font-weight:700;
+	margin-left: 15px;
 }
 
 .caixatextos h2{
 	text-align: left;
 	font-family: 'Raleway';
 	color: #000;
-	font-size: 20px;
+	font-size: 14px;
 	font-weight:400;
+	margin-left: 14px;
 }
 
 .caixatextos{
@@ -115,22 +117,18 @@ header{
 
 
 @media only screen and (max-width: 1024px){
-	header .titulo{
-		grid-template-columns: 40% 60%;
-	}
+
 }
 
 @media screen and (max-width: 768px){
-	header .titulo{
-		grid-template-columns: 30% 70%;
-	}
+
 
 	.externa{
-		margin-top: 5%;
+		margin-top: 2%;
 	}
 
 	.caixainfo {
-	width: auto%;
+	width: auto;
 	display: grid;
 	grid-template-columns: auto auto;
 	}
@@ -139,9 +137,10 @@ header{
 	font-family: 'Raleway';
 	text-align: left;
 	color: #000;
-	font-size: 110%;
+	font-size: 100%;
 	font-weight:700;
 	}
+
 
 	.caixatextos h2{
 		text-align: left;
@@ -154,7 +153,7 @@ header{
 	.caixatextos{
 		align-self: center;
 		grid-template-rows: auto auto;
-		margin-left: 5%;
+		margin-left: 0%;
 	}
 
 	.caixainfo img{
@@ -164,15 +163,34 @@ header{
 	}
 
 	.titulo{
-		margin-top: 10%;
+		margin-top: 6%;
+		font-size: 60px;
 	}
 
 	.subtitulo{
-		margin-bottom: 5%;
+		margin-bottom: 7%;
+		font-size: 25px;
 	}
 
 	.preinput{
-		font-size: 150%;
+		font-size: 20px;
+		margin-bottom: 2%;
+
+	}
+
+	.caixa{
+	border-radius:6px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    background: #F2F2F2; 
+    border:0px;
+	width:100%;
+	height: 50px;
+	margin-bottom: 2%;
+	}
+
+	.button{
+		margin-bottom: 12%;
 	}
 
 @media screen and (max-width: 640px){
@@ -197,6 +215,7 @@ header{
 		color: #000;
 		font-size: 110%;
 		font-weight:700;
+		margin-left: 18%;
 	}
 
 	.caixatextos h2{
@@ -205,23 +224,25 @@ header{
 		color: #000;
 		font-size: 75%;
 		font-weight:400;
+		margin-left: 18%;
 	}
 
 	.caixatextos{
 		align-self: center;
 		grid-template-rows: auto auto;
-		margin-left: 5%;
+		
 	}
 
 	.caixainfo img{
 		align-self: center;
 		width:30px;
 		height:30px;
+		margin-right: 18px;
 	}
 
 	.titulo{
-		font-size: 170%;
-		margin-top: -1%;
+		font-size: 180%;
+		margin-top: 3%;
 		font-style: bold;
 	}
 
@@ -233,6 +254,7 @@ header{
 	.preinput{
 		font-size: 80%;
 		width:90%;
+		margin-bottom: -1%;
 	}
 
 	.caixa{
@@ -241,12 +263,13 @@ header{
 	}
 
 	.button{
-		width: 130px;
+		width: 110px;
 		height: 30px;
 		font-weight:700;
-		font-size: 12px;
-		margin-top: -8%;
+		font-size: 13px;
+		margin-top: -15%;
 		border: 2px solid #000;
+		margin-bottom: 5%;
 	}
 
 	.caixainfo {
@@ -280,6 +303,7 @@ header{
 		align-self: center;
 		width:30px;
 		height:30px;
+		margin-right: 10%;
 	}
 
 	.externa{
@@ -298,30 +322,40 @@ header{
 	}
 
 	.titulo{
-		font-size: 35px;
-		margin-top: 6%;
-		font-weight:1800;
+		font-size: 37px;
+		margin-top: 8%;
+		font-weight:150%;
 	}
 
 	.subtitulo{
-		font-size: 95%;
-		margin-bottom: 4%;
+		font-size: 92%;
+		margin-bottom: 8%;
+	}
+
+
+	.inputexterno{
+		width: 85%;
+		height: 75%;
 	}
 
 	.preinput{
-		font-size: 85%;
+		font-size: 92%;
 		width:100%;
 	}
 
 	.caixa{
 		width:100%;
-		height: 27px;
+		height: 33px;
 		margin-bottom: 5px;
 	}
 
 	.button{
-		margin-top: -8%;
-		margin-bottom: 10%;
+		margin-top: 0%;
+		margin-bottom: 20%;
+		width: 140px;
+		height: 40px;
+		font-weight:700;
+		font-size: 15px;
 	}
 
 	.caixatextos{
@@ -335,22 +369,25 @@ header{
 		font-family: 'Raleway';
 		text-align: left;
 		color: #000;
-		font-size: 48%;
+		font-size: 51%;
 		font-weight:700;
+		margin-left: 1%;
 	}
 
 	.caixatextos h2{
 		text-align: left;
 		font-family: 'Raleway';
 		color: #000;
-		font-size: 43%;
+		font-size: 45%;
 		font-weight:400;
+		margin-left: 1%;
 	}
 
 	.caixainfo img{
 		align-self: center;
 		width:20px;
 		height:20px;
+		margin-right:0%;
 	}
 
 	.caixainfo{
